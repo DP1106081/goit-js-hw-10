@@ -20,7 +20,7 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-  onChange(selectedDates) {
+  onClose(selectedDates) {
     userSelectedDate = selectedDates[0];
     if (userSelectedDate <= new Date()) {
       iziToast.error({
