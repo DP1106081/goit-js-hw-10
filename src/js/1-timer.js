@@ -30,7 +30,7 @@ const options = {
       });
       startBtn.disabled = true;
     } else {
-      startBtn.disabled = !true;
+      startBtn.disabled = false;
     }
   },
 };
